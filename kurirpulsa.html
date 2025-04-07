@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pengalihan Acak</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        window.onload = function() {
+            // Ganti URL di bawah ini dengan link tujuan Anda
+            var links = [
+                "https://link1.com",
+                "https://link2.com"
+            ];
+
+            var randomIndex = Math.floor(Math.random() * links.length);
+            window.location.href = links[randomIndex];
+        }
+    </script>
+</head>
+<body>
+    <p>Mengalihkan ke halaman acak...</p>
+</body>
+</html>
